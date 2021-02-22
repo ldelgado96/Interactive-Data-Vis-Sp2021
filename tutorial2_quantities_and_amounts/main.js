@@ -39,6 +39,7 @@ svg.selectAll("rect")
 .attr("height", yScale.bandwidth())
 .attr("fill","#69b3a2");
 
+/** Trying to figure out how to add the text. Will as my next steps:
 var bars= svg.selectAll("bars")
 bars.append("text")
 .attr("class","label")
@@ -50,6 +51,6 @@ const g = svg.append('g')
 .attr('transform','translate(${margin.left},${margin.top})')
 yAxis(g.append('g'));
 
-
+**/
 
 })
