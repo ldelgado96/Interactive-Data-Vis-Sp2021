@@ -1,7 +1,15 @@
-// Author: Lilybeth Delgado, Project 1
+// Author: Lilybeth Delgado, Assignment 1:
 
-d3.csv('/data/squirrelActivities.csv', d3.autoType).then(data => {
-    console.log('data', data)
+//d3.csv('/data/squirrelActivities.csv', d3.autoType).then(data => {
+   //console.log('data', data)
+
+    var data=[
+        {"activity":"running","count":"730"},
+        {"activity":"chasing","count":"279"},
+        {"activity":"climbing","count":"658"},
+        {"activity":"eating","count":"760"},
+        {"activity":"foraging","count":"1435"} ]
+    
 
 
     const margin= {top:20, right:20, bottom:20, left:200};
@@ -35,22 +43,7 @@ svg.selectAll("rect")
 .join("rect")
 .attr("x", d=>xScale)
 .attr("y", d=>yScale(d.activity)) //d=>d.activity
-.attr("width", d=>width - xScale(d.count) ) //d => d.count
+.attr("width", d=>width - xScale(d.count)) //d => d.count
 .attr("height", yScale.bandwidth())
 .attr("fill","#69b3a2");
 
-/** Trying to figure out how to add the text. Will as my next steps:
-var bars= svg.selectAll("bars")
-bars.append("text")
-.attr("class","label")
-.attr(y, d=>yScale(d.activity))
-.attr(x, d=>xScale(d.count))
-
-const yAxis = axisLeft(yScale);
-const g = svg.append('g')
-.attr('transform','translate(${margin.left},${margin.top})')
-yAxis(g.append('g'));
-
-**/
-
-})
