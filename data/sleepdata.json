@@ -1,0 +1,72 @@
+[
+    {
+        "day":"Monday",
+        "minutes_asleep": 411,
+        "minutes_awake": 70,
+        "number_of_awakenings": 31,
+        "id":1
+      },
+      {
+        "day":"Tuesday",
+        "minutes_asleep": 556,
+        "minutes_awake": 77,
+        "number_of_awakenings": 50,
+        "id":2
+      },
+      {
+        "day":"Wednesday",
+        "minutes_asleep": 455,
+        "minutes_awake": 58,
+        "number_of_awakenings": 40,
+        "id":3
+      },
+      {
+        "day":"Thursday",
+        "minutes_asleep": 494,
+        "minutes_awake": 69,
+        "number_of_awakenings": 45,
+        "id":4
+      }, 
+       {
+        "day":"Friday",
+        "minutes_asleep": 458,
+        "minutes_awake": 55,
+        "number_of_awakenings": 35,
+        "id":5
+      },
+      {
+        "day":"Monday",
+        "minutes_asleep": 420,
+        "minutes_awake": 40,
+        "number_of_awakenings": 31,
+        "id":6
+      },
+      {
+        "day":"Tuesday",
+        "minutes_asleep": 500,
+        "minutes_awake": 77,
+        "number_of_awakenings": 50,
+        "id":7
+      },
+      {
+        "day":"Wednesday",
+        "minutes_asleep": 400,
+        "minutes_awake": 58,
+        "number_of_awakenings": 40,
+        "id":8
+      },
+      {
+        "day":"Thursday",
+        "minutes_asleep": 450,
+        "minutes_awake": 69,
+        "number_of_awakenings": 45,
+        "id":9
+      }, 
+       {
+        "day":"Friday",
+        "minutes_asleep": 460,
+        "minutes_awake": 55,
+        "number_of_awakenings": 35,
+        "id":10
+      }
+]
