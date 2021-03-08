@@ -1,0 +1,37 @@
+body{
+
+    background-color: #6a676b;
+    color:#ffffff;
+    font-size: 24px;
+    font-family:courier,arial,helvetica;
+}
+#container{
+    padding: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 30px;
+}
+
+#dropdown{
+
+    width:30%;
+    border:1px solid #d3d3d3;
+    background-color: #301934;
+    color:#ffffff;
+    font-size: 24px;
+    font-family:courier,arial,helvetica;
+    
+}
+
+option{
+    background-color: #301934;
+    color:#ffffff;
+    font-size: 24px;
+    font-family:courier,arial,helvetica;
+
+}
+#label-text{
+    background-color: #301934;
+    color:#ffffff;
+    font-size: 24px;
+    font-family:courier,arial,helvetica;
+}

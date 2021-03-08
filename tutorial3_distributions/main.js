@@ -1,3 +1,5 @@
+
+  
 /* CONSTANTS AND GLOBALS */
 const width = window.innerWidth * 0.7,
   height = window.innerHeight * 0.7,
@@ -163,3 +165,4 @@ function draw() {
   .attr("cx", d=> xScale(d.minutes_asleep))
  
 }
+
